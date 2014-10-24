@@ -1,7 +1,7 @@
 steps-progress-tracker
 ======
 
- <b>jQuery plugin Name:<b> ProgressTracker.js <br/>
+ <b>jQuery plugin Name:</b> ProgressTracker.js <br/>
  Original author: @Sanjeev Rai <br/>
  <br/>
 <b>Dependencies:</b> <br/>
