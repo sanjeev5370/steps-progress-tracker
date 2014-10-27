@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Steps progress tracker demo</title>
+    <script src="Scripts/jquery-1.11.1.js"></script>
+    <script src="Scripts/jquery-ui-1.10.4.js"></script>
+    <script src="Scripts/SampleJson.js"></script>
+    <script src="Scripts/ProgressTracker.js"></script>
+
+    <link href="Styles/progressTracker.css" rel="stylesheet" />
+    <style type="text/css">
+        .demoContainer div {
+            border: solid 1px #c1c1c1;
+            padding: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#tracker1").progressTracker(sampleJson1);
+            $("#tracker2").progressTracker(sampleJson2);
+            $("#tracker3").progressTracker(sampleJson3);
+            $("#tracker4").progressTracker(sampleJson4);
+        });
+    </script>
+</head>
+<body>
+    <div class="demoContainer">
+        <h2>ProgressTracker plugin demo with tooltip</h2>
+        <div id="tracker1" style="width: 700px">
+        </div>
+        <h2>ProgressTracker plugin demo without tooltip on steps</h2>
+        <div id="tracker2" style="width: 1000px">
+        </div>
+        <h2>ProgressTracker plugin demo2: Show tooltip on seleced steps</h2>
+        <div id="tracker3" style="width: 1200px">
+        </div>
+        <h2>ProgressTracker plugin demo4: tooltip position left</h2>
+        <div id="tracker4" style="width: 1000px">
+        </div>
+    </div>
+</body>
+</html>
